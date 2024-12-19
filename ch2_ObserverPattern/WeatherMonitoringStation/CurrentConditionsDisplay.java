@@ -4,7 +4,7 @@ public class CurrentConditionsDisplay implements Display, Observer
         
     }
     
-    public void update() {
+    public void update(float temp, float humidity, float pressure) {
         
     }
 }
