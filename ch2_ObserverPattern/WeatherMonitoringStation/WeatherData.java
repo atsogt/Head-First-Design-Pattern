@@ -20,7 +20,11 @@ public class WeatherData implements Subject {
 
     public void notifyObserver() {
         for (Observer observer : observers) {
-            observer.update(temperature, humidity, pressure);
+            // push update from subject to all observers
+            // observer.update(temperature, humidity, pressure);
+            
+            //pull pattern
+            observer.update();
         }
     }
 

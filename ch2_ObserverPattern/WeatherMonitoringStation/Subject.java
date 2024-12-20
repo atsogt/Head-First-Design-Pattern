@@ -7,6 +7,7 @@
  */
 public interface Subject
 {
+    //Subjects update Observers using a common interface.
     public void registerObserver(Observer o);
     public void removeObserver(Observer o);
     public void notifyObserver();
