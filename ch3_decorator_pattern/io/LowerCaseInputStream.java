@@ -1,8 +1,7 @@
-package ch3_decorator_pattern.io;
-
 import java.io.*;
 
-public class LowerCaseInputStream extends FileInputStream {
+public class LowerCaseInputStream extends FilterInputStream {
+
   public LowerCaseInputStream(InputStream in) {
     super(in);
   }
