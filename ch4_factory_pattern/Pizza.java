@@ -1,12 +1,12 @@
 package ch4_factory_pattern;
 
-  import java.util.*;
+import java.util.*;
 
 abstract public class Pizza {
-	String name;
-	String dough;
-	String sauce;
-	List<String> toppings = new ArrayList<String>();
+	protected String name;
+	protected String dough;
+	protected String sauce;
+	protected List<String> toppings = new ArrayList<String>();
 
 	public String getName() {
 		return name;
@@ -40,4 +40,3 @@ abstract public class Pizza {
 		return display.toString();
 	}
 }
-
