@@ -2,6 +2,7 @@
 public class PizzaStore {
 	SimplePizzaFactory factory;
 
+	// client of pizza factory
 	public PizzaStore(SimplePizzaFactory factory) {
 		this.factory = factory;
 	}

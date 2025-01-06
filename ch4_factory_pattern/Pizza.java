@@ -2,6 +2,8 @@ package ch4_factory_pattern;
 
 import java.util.*;
 
+//product of the pizza factory
+//abstract class that is inherited by variety of pizza classes
 abstract public class Pizza {
 	protected String name;
 	protected String dough;
