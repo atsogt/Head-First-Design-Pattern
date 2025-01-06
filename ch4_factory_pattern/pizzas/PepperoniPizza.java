@@ -1,3 +1,6 @@
+package ch4_factory_pattern.pizzas;
+
+import ch4_factory_pattern.Pizza;
 
 public class PepperoniPizza extends Pizza {
 	public PepperoniPizza() {

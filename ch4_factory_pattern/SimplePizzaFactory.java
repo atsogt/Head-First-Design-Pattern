@@ -1,3 +1,7 @@
+import ch4_factory_pattern.pizzas.CheesePizza;
+import ch4_factory_pattern.pizzas.ClamPizza;
+import ch4_factory_pattern.pizzas.PepperoniPizza;
+import ch4_factory_pattern.pizzas.VeggiePizza;
 
 public class SimplePizzaFactory {
 

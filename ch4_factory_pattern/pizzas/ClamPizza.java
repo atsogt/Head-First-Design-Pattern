@@ -1,4 +1,6 @@
 
+import ch4_factory_pattern.Pizza;
+
 public class ClamPizza extends Pizza {
 	public ClamPizza() {
 		name = "Clam Pizza";
