@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.pizzafm;
+package ch4_factory_pattern.FactoryMethod;
 
 public class NYStyleVeggiePizza extends Pizza {
 
@@ -6,7 +6,7 @@ public class NYStyleVeggiePizza extends Pizza {
 		name = "NY Style Veggie Pizza";
 		dough = "Thin Crust Dough";
 		sauce = "Marinara Sauce";
- 
+
 		toppings.add("Grated Reggiano Cheese");
 		toppings.add("Garlic");
 		toppings.add("Onion");

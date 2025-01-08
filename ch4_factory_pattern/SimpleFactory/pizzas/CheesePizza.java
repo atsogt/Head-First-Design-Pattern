@@ -1,6 +1,6 @@
 package ch4_factory_pattern.pizzas;
 
-import ch4_factory_pattern.Pizza;
+import ch4_factory_pattern.SimpleFactory.Pizza;
 
 //all variations of pizzas are concrete classes of pizza
 public class CheesePizza extends Pizza {

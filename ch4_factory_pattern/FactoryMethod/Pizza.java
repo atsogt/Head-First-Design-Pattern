@@ -1,4 +1,4 @@
-package ch4_factory_pattern.SimpleFactory;
+package ch4_factory_pattern.FactoryMethod;
 
 import java.util.*;
 
