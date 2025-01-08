@@ -10,7 +10,7 @@ public class ChicagoStyleCheesePizza extends Pizza {
 		toppings.add("Shredded Mozzarella Cheese");
 	}
 
-	void cut() {
+	public void cut() {
 		System.out.println("Cutting the pizza into square slices");
 	}
 }
