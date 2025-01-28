@@ -1,4 +1,4 @@
-package headfirst.designpatterns.factory.pizzaaf;
+package ch4_factory_pattern.AbstractFactory;
 
 public interface PizzaIngredientFactory {
 
